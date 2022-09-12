@@ -60,3 +60,9 @@ body{
 .nav__link:hover{
     color:#3756f3;
 }
+
+
+.img__name{
+    font-size: 20px;
+    text-align: center;
+}

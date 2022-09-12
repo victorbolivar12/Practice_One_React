@@ -7,6 +7,7 @@ import {
 import Comments from "./Comments";
 import Post from "./Post";
 import Users from "../Users";
+import Photos from "./Photos";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
@@ -23,12 +24,16 @@ function Navbar() {
           <li>
             <Link className="nav__link" to="/comments">Comments</Link>
           </li>
+          <li>
+            <Link className="nav__link" to="/photos">Photos</Link>
+          </li>
         </ul>
       </nav>
 
       <Routes>
         <Route path="/comments" element={<Comments />} />
         <Route path="/posts" element={<Post/>} />
+        <Route path="/photos" element={<Photos/>} />
         <Route path="/" element={<Users/>}/>
       </Routes>
 
