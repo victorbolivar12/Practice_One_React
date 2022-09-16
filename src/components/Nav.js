@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Comments from "./Comments";
 import Post from "./Post";
-import Users from "../Users";
+import Users from "./Users";
 import Photos from "./Photos";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
